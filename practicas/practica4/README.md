@@ -55,7 +55,7 @@ la granja web en este momento quedaría de la siguiente forma:
 
 ![](img/estado_red.jpg)
 
-Esta máquina se ha congifurado con el script visto anteriormente para la configuración del cortafuegos con `ipatbles` pero se ha añadido una modificación a este para permitir la redirección a la máquina 3, que actua como balanceador de carga.
+Esta máquina se ha congifurado con el [script](https://github.com/juanpablodonoso/iptablesconf/blob/master/iptables_set.sh) visto anteriormente para la configuración del cortafuegos con `ipatbles` pero se ha añadido una modificación a este para permitir la redirección a la máquina 3, que actua como balanceador de carga.
 Además es necesario permitir el IP Forwarding modificando el fichero de configuración `/etc/sysctl.conf` de tal forma que `net.ipv4.ip_forward = 1`. 
 La configuración adicional del cortafuegos es la siguiente:
 ```
