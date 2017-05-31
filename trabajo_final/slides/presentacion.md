@@ -193,6 +193,15 @@ Snort es un software prevención de intrusos en red, que es capaz de analizar tr
 ![](img/whatis_snort.png)
 ###### *Intrusion Detection Systems with Snort Advanced IDS Techniques Using Snort, Apache, MySQL, PHP, and ACID*, de  Rafeeq Ur Rehman
 
+
+---
+<!-- footer: Snort - Preparando el servidor -->
+# Ubuntu Server. Preparación del servidor 
+![center](img/snord_install.png)
+
+Para instalación detallada (mejor que doc. oficial) 
+https://www.upcloud.com/support/installing-snort-on-ubuntu/
+
 ---
 <!-- footer: Snort - Preparando el servidor -->
 # Ubuntu Server. Preparación del servidor 
@@ -208,10 +217,12 @@ sudo apt-get install build-essential libpcap-dev libpcre3-dev libdumbnet-dev bis
 ```
 Para la configuración de Snort: 
 https://www.snort.org/documents/snort-2-9-9-x-on-ubuntu-14-16
-https://www.upcloud.com/support/installing-snort-on-ubuntu/
+
 
 
 ---
+<!-- footer: Snor -- Funcionamiento -->
+# Funcionamiento Snort
 ## Método de detección 
 Snort está basado en reglas, que se emplean para la detección de NIAs. 
 Esta regla podría estar alojada en `/etc/snort/rules/sql.rules`

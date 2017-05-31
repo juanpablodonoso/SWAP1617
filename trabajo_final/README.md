@@ -116,7 +116,7 @@ En la figura vemos el parse tree de una petición HTTP que nos dará una descomp
 | Una signature es un string o patrón que corresponde con un ataque conocido | Una anomalia es una desviación de un comportamiento normal del sistema | El estado indica que el IDS puede conocer y trazar los estados del protocolo (por ejemplo pareando las peticiones con las respuestas) |
 | Usa el conocimiento acumulado por ataques específicos y vulnerabilidades de sistema | Los perfiles normales se crean monitorizando el tráfico red en condiciones de no ataque | Los protocolos están basados en estándares desde organizaciones internacionales |
 
-
+![](slides/img/captura_csv.png)
 
 ##### Detección basada en anomalías
 
@@ -124,11 +124,19 @@ Este metodología trata de predecir y detectar ataque que no han ocurrido nunca 
 
 Este método nos permite la deteccion de ataques que antes no estaban detectados en el sistema sin embargo el número de *falsos positivos*  puede ser muy alto, ya que toda información no conocida previamente en el sistema se clasificará como maliciosa. 
 
+![](slides/img/FP.png)
+
 Por tanto este tipo de sistemas tienen dos fases, la fase de entrenamiento donde se contruye el perfil de "normalidad" del sistema y la fase de testing donde el tráfico actual de la red es comparado con el perfil creado en la fase de entramiento.  Cuando una anomalía es detectada entra a formar parte de la base de conocimiento, cambiando el estado normal de comportamiento del sistema. 
 
 
 
 ### Sistemas de detección de intrusos y técnicas de evasión 
+
+### Caso Real - Detección de intrusos con Snort en red propia
+
+##### Snort
+
+
 
 
 
