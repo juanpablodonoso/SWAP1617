@@ -27,7 +27,7 @@ El sistema de alertas es el encargado de gestionar falsas alarmas o **falsos pos
 ---
 
 # Arquitectura (Snort)
-![center](../img/arquitectura_snort.png)
+![center 150%](img/components_snort.png)
 
 ---
 # Comportamiento (II)
